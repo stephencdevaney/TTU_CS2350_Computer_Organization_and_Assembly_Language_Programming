@@ -1,0 +1,20 @@
+Program practices: write a program for each question. We need to finish them after chapter 4.
+
+Project 1:
+Description: Write a program that uses a loop to calculate the first
+seven values in the Fibonacci number sequence { 1,1,2,3,5,8,13 }.
+Place each value in the EAX register and display it with a
+call DumpRegs statement inside the loop.
+
+Project 2: 
+Description: Write a program using the LOOP instruction with
+indirect addressing that copies a string from source to target,
+reversing the character order in the process. Display both the source and the target in the memory.
+
+Project 3:
+Use a loop with indirect or indexed addressing to reverse the elements of an 
+integer array in place. Do not copy the elements to any other array. Use the 
+SIZEOF, TYPE, and LENGTHOF operators to make the program as flexible as possible 
+if the array size and type should be changed in the future. Optionally, you 
+may display the modified array by calling the DumpMem method from the Irvine32 
+library. 
